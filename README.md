@@ -1,2 +1,6 @@
-# Progetto-Cartoline_7694-113_7694-119
-Progetto di Alessandro Cignoni (561497) per il corso di Codifica di Testi 2019/2020
+# Cignoni_CodificaTesti2019-20 #
+Università di Pisa<br/>
+Corso: Codifica dei Testi 2019/2020, A. M. Del Grosso<br/>
+Studente: Alessandro Cignoni<br/>
+Matricola: 561497<br/>
+Progetto: in singolo, cartoline 7694-113 e 7694-119<br/>
