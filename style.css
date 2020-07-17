@@ -1,0 +1,136 @@
+body {
+	color: rgb(255, 255, 255);
+	font-family: "DejaVou Serif", serif;
+	text-align: center;
+	background-color: rgb(0, 0, 0);
+	background-size: 100% 50%;
+	background-image: url(img/modena-ww1_2.jpg), url(img/modena-ww1_1.jpg);
+	background-position: bottom, top;
+	background-repeat: no-repeat, no-repeat;
+	padding: 10px;
+}
+
+header, footer {
+	width: 25%;
+	background-color: rgba(75, 75, 75, 0.7);
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 3;
+	box-shadow: 0 0 45px 50px rgba(75, 75, 75, 0.7);
+}
+
+header {
+	border-bottom-left-radius: 200px;
+	border-bottom-right-radius: 200px;
+}
+
+footer {
+	border-top-left-radius: 200px;
+	border-top-right-radius: 200px;
+}
+
+h1, h2, h3, h4, h5, th, button {
+	font-family: "DejaVou Sans Mono", monospace;
+}
+
+table {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h5, th {
+	font-size: 110%;
+	
+}
+
+h4 {
+	font-size: 125%;
+}
+
+h3 {
+	font-size: 155%;
+}
+
+h2 {
+	font-size: 180%;
+}
+
+h1 {
+	font-size: 215%;
+	font-variant: small-caps;
+}
+
+.interpretativa {
+	color: rgb(255, 0, 0);
+	font-weight: bold;
+}
+
+.diplomatica {
+	font-style: italic;
+}
+
+.notCard {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	width:75%;
+	border-radius: 50px;
+}
+
+.card {
+	background-color: rgba(30, 30, 30, 0.7);
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 10px;
+	border-style: solid;
+	border-width: 10px;
+	border-color: rgba(255, 255, 255);
+	border-radius: 20px;
+}
+
+.persPlace {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 15px;
+	border-color: rgb(75, 75, 75);			
+	border-width: 5px;
+	border-radius: 50px;
+	border-style: solid;
+}
+
+button {
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	background: rgb(75, 75, 75);
+	border-color: rgb(255, 255, 255);
+	border-width: 2px;
+	border-radius: 5px;
+	border-style: solid;
+	margin-bottom: 5px;
+	padding: 3px;
+}
+
+button:hover {
+	color: rgb(255, 255, 0);
+	border-color: rgb(255, 255, 0);
+	margin-bottom: 5px;
+}
+
+a:link {
+	color: rgb(255, 255, 0);
+}
+
+a:visited {
+	color: rgb(255, 255, 255);
+}
+
+a:hover {
+	color: rgb(255, 0, 0);
+}

@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Da Modena con affetto</title>
+				<respStmt>
+					<resp>Trascrittore</resp>
+					<name xml:id="XX">Alessandro Cignoni</name>
+				</respStmt>
+				<respStmt>
+					<resp>Ente di Appartenenza</resp>
+					<name type="comune" ref="#SP">Comune della Spezia</name>
+				</respStmt>
+			</titleStmt>      
+			<editionStmt>
+				<edition>Studenti di Codifica dei Testi, Corso di laurea triennale in Informatica Umanistica, Università di Pisa
+ 					<date>2020</date>
+				</edition>
+				<respStmt>
+					<resp>Codificatore</resp>
+					<name xml:id="XY1">Alessandro Cignoni</name>
+				</respStmt>
+				<respStmt>
+					<resp>Compilatore</resp>
+					<name xml:id="XY2">Tommaso Castagneto</name>
+				</respStmt>
+				<respStmt>
+					<resp>Responsabile scientifico</resp>
+					<name xml:id="GP">Giacomo Paolicchi</name>
+					<name xml:id="ES">Enrica Salvatori</name>
+				</respStmt>
+				<respStmt>
+					<resp>Funzionario responsabile</resp>
+					<name xml:id="MR">Marzia Ratti</name>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>Unipi</publisher>
+				<pubPlace>Pisa</pubPlace>
+				<availability>
+					<p>Available under licence only</p>
+				</availability>
+				<date when="2018">2018</date>
+				<distributor>LabCD</distributor>
+				<address>
+					<addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+					<addrLine>Pisa</addrLine>
+				</address>
+			</publicationStmt>
+			<sourceDesc>
+				<listPerson>
+					<person xml:id="GC">
+						<persName>
+							<forename>Giovanni</forename>
+							<addName type="alias">Giovannino</addName>
+							<surname>Coliola </surname>
+						</persName>
+						<sex>M</sex>
+						<occupation n="1">maggiore</occupation>
+					</person>
+					<person xml:id="OT">
+						<persName>
+							<forename>Oliva</forename>
+							<surname>Turtura</surname>
+						</persName>
+						<sex>F</sex>
+					</person>
+					<person xml:id="TC">
+						<persName>
+							<forename>Tito</forename>
+							<surname>Corbella </surname>
+						</persName>
+						<sex>M</sex>
+						<occupation n="1">disegnatore</occupation>
+					</person>
+					<person xml:id="AM">
+						<persName>
+							<forename>Anchille</forename>
+							<forename>Luciano</forename>
+							<addName type="alias">Mauzano</addName>
+							<surname>Mauzan </surname>
+						</persName>
+						<sex>M</sex>
+						<occupation n="1">disegnatore</occupation>
+					</person>
+				</listPerson>
+				<listPlace>
+					<place xml:id="RV">
+						<placeName>Ravenna</placeName>
+						<settlement type="località">città</settlement>
+						<district type="comune">Ravenna</district>
+						<district type="provincia">RV</district>
+						<country key="N">IT</country>
+					</place>
+					<place xml:id="MO">
+						<placeName>Modena</placeName>
+						<settlement type="località">città</settlement>
+						<district type="comune">Modena</district>
+						<district type="provincia">MO</district>
+						<country key="N">IT</country>
+					</place>
+					<place xml:id="MI">
+						<placeName>Milano</placeName>
+						<settlement type="località">Milano</settlement>
+						<district type="comune">Milano</district>
+						<district type="provincia">MI</district>
+						<country key="N">IT</country>
+					</place>
+					<place xml:id="SP">
+						<placeName>La Spezia</placeName>
+						<settlement type="località">La Spezia</settlement>
+						<district type="comune">La Spezia</district>
+						<district type="provincia">SP</district>
+						<country key="N">IT</country>
+					</place>
+				</listPlace>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<TEI xml:id="c7694-113">
+		<teiHeader>
+			<fileDesc>
+				<titleStmt>
+					<title>"Amami amami sempre meglio"</title>
+					<respStmt>
+						<resp>Trascrittore</resp>
+						<name ref="#XX">Alessandro Cignoni</name>
+					</respStmt>
+					<respStmt>
+						<resp>Ente di Appartenenza</resp>
+						<name ref="#SP">Comune della Spezia</name>
+					</respStmt>
+				</titleStmt>      
+				<editionStmt>
+					<edition>Studenti di Codifica dei Testi, Corso di laurea triennale in Informatica Umanistica, Università di Pisa
+	 					<date>2020</date>
+					</edition>
+					<respStmt>
+						<resp>Codificatore</resp>
+						<name ref="#XY1">Alessandro Cignoni</name>
+					</respStmt>
+					<respStmt>
+						<resp>Compilatore</resp>
+						<name ref="#XY2">Tommaso Castagneto</name>
+					</respStmt>
+					<respStmt>
+						<resp>Responsabile scientifico</resp>
+						<name ref="#GP">Giacomo Paolicchi</name>
+						<name ref="#ES">Enrica Salvatori</name>
+					</respStmt>
+					<respStmt>
+						<resp>Funzionario responsabile</resp>
+						<name ref="#MR">Marzia Ratti</name>
+					</respStmt>
+				</editionStmt>
+				<publicationStmt>
+					<publisher>Unipi</publisher>
+					<pubPlace>Pisa</pubPlace>
+					<availability>
+						<p>Available under licence only</p>
+					</availability>
+					<date when="2018">2018</date>
+					<distributor>LabCD</distributor>
+					<address>
+						<addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+						<addrLine>Pisa</addrLine>
+					</address>
+				</publicationStmt>
+				<notesStmt>
+					<note>Sul retro è stampato "Proprietà artistica riservata - Uff Rev. Stampa <placeName ref="#MI">Milano</placeName> 11-6-17 N°. 1139".</note>
+					<note>Non è stato apposto il francobollo, né sono indicati destinatario e indirizzo.</note>
+				</notesStmt>
+				<sourceDesc>
+					<bibl>
+						<title type="custom">[Donna sdraiata]</title>
+						<author ref="#TC">T. Corbella</author>
+						<pubPlace>Milano</pubPlace>
+						<date when="1917-06-11">11/06/1917</date>
+					</bibl>
+					<msDesc>
+						<msIdentifier>
+							<country>Italia</country>
+							<settlement>La Spezia (SP)</settlement>
+							<repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerra Mondiale</repository>
+							<idno>7694_113_001/002</idno>
+						</msIdentifier>
+						<msContents>
+							<summary>Cartolina Artistica</summary>
+							<textLang>Italiano</textLang>
+						</msContents>
+						<physDesc>
+							<objectDesc>
+								<supportDesc>
+									<support>
+										<objectType>Cartolina</objectType>
+										<material>Carta</material>
+										<dimensions unit="cm">
+											<height>9</height>
+											<width>14</width>
+										</dimensions>
+									</support>
+									<condition>Buono</condition>
+								</supportDesc>
+							</objectDesc>
+						</physDesc>
+					</msDesc>
+				</sourceDesc>
+			</fileDesc>
+			<profileDesc>
+				<correspDesc>
+					<correspAction type="sent">
+						<persName ref="#GC"/>
+						<placeName ref="MO"/>
+						<date type="writing" when="1917-09-03">03/09/1917</date>
+					</correspAction>
+					<correspAction type="received">
+						<persName ref="OT"/>
+					</correspAction>
+				</correspDesc>
+				<textClass>
+					<keywords>
+						<term>Cartolina </term>
+						<term>Cartolina Artistica </term>
+						<term>Coppia di innamorati</term>
+					</keywords>
+				</textClass>
+				<langUsage>
+					<language ident="it-IT">italiano</language>
+				</langUsage>
+			</profileDesc>
+		</teiHeader>
+		<facsimile>
+			<surface xml:id="c113_fronte">
+				<graphic url='img/7694-113F.jpg' width='1064px' height='1656px'/>
+				<zone ulx="601" uly="6" lrx="659" lry="328" xml:id="c113_autore"/>
+			</surface>
+			<surface xml:id="c113_retro">
+				<graphic url='img/7694-113R.jpg' width='1061px' height='1663px' />
+				<zone ulx="290" uly="5" lrx="831" lry="106" xml:id="c113_data"/>
+				<zone ulx="73" uly="59" lrx="565" lry="144" xml:id="c113_apertura"/>
+				<zone ulx="24" uly="134" lrx="1004" lry="221" xml:id="c113_riga01"/>
+				<zone ulx="22" uly="217" lrx="1027" lry="285" xml:id="c113_riga02"/>
+				<zone ulx="23" uly="284" lrx="1022" lry="364" xml:id="c113_riga03"/>
+				<zone ulx="15" uly="361" lrx="1008" lry="440" xml:id="c113_riga04"/>
+				<zone ulx="18" uly="444" lrx="1041" lry="504" xml:id="c113_riga05"/>
+				<zone ulx="23" uly="523" lrx="1029" lry="618" xml:id="c113_riga06"/>
+				<zone ulx="15" uly="605" lrx="1031" lry="692" xml:id="c113_riga07"/>
+				<zone ulx="19" uly="673" lrx="1031" lry="743" xml:id="c113_riga08"/>
+				<zone ulx="22" uly="755" lrx="954" lry="838" xml:id="c113_riga09"/>
+				<zone ulx="29" uly="828" lrx="927" lry="911" xml:id="c113_riga10"/>
+				<zone ulx="21" uly="907" lrx="939" lry="982" xml:id="c113_riga11"/>
+				<zone ulx="23" uly="978" lrx="1000" lry="1050" xml:id="c113_riga12"/>
+				<zone ulx="28" uly="1053" lrx="1048" lry="1122" xml:id="c113_riga13"/>
+				<zone ulx="21" uly="1131" lrx="1012" lry="1208" xml:id="c113_riga14"/>
+				<zone ulx="16" uly="1193" lrx="959" lry="1264" xml:id="c113_riga15"/>
+				<zone ulx="26" uly="1284" lrx="1059" lry="1352" xml:id="c113_riga16"/>
+				<zone ulx="17" uly="1346" lrx="1006" lry="1425" xml:id="c113_riga17"/>
+				<zone ulx="34" uly="1434" lrx="936" lry="1514" xml:id="c113_riga18"/>
+				<zone ulx="52" uly="1498" lrx="1040" lry="1567" xml:id="c113_riga19"/>
+				<zone ulx="52" uly="1568" lrx="1024" lry="1618" xml:id="c113_riga20"/>
+				<zone ulx="22" uly="1620" lrx="1058" lry="1662" xml:id="c113_saluto"/>
+				<zone ulx="1006" uly="412" lrx="1060" lry="1495" xml:id="c113_postscritpum"/>
+			</surface>
+		</facsimile>
+		<text type="cartolina">
+			<body>
+				<div type="fronte" facs="#c113_fronte">
+					<figure>
+						<graphic url="img/7694-113F.jpg" />
+						<figDesc>Donna in azzurro sdraiata sul letto con cuscino giallo</figDesc>
+						<head>[Donna sdraiata] di T. Corbella</head>
+					</figure>
+					<p facs="#c113_autore">T. Corbella</p>
+				</div>
+				<div type="retro" facs="#c113_retro">
+					<div type="message" facs="#c113_messaggio">
+						<opener>
+							<lb n="1" facs="#c113_data"/>
+							<dateline>
+								<placeName ref="#MO">Modena</placeName>, <date type="written" when="1917-09-03">
+								lì 3/9-17.</date>
+							</dateline>
+							<lb n="2" facs="#c113_apertura"/>
+							<salute>
+								<persName ref="#OT">Oliva</persName> mia e cara,
+							</salute>
+						</opener>
+						<p>
+							<s n="1">
+								<lb n="3" facs="#c113_riga01"/>
+								<date type="written" when="1917-09-02">Domenica</date> e <date type="written" when="1917-09-03">lunedì</date> senza un tuo scritto,
+								<lb  n="4" facs="#c113_riga02"/>
+								senza un tuo dolcis<c corresp="s">&#x17F;</c>imo bacio che è tan-
+								<lb  n="5" break="no" facs="#c113_riga03"/>
+								ta parte del mio cuore.
+							</s>
+							<s n="2">
+								Perché così?
+							</s>
+						</p>
+						<p>
+							<s n="3">
+								<lb n="6" facs="#c113_riga04"/>
+								Lo so tu vuoi ch'io corra da te a por-
+								<lb n="7" break="no" facs="#c113_riga05"/>
+								tarti le dovizie dell'animo mio, tutto
+								<lb n="8" facs="#c113_riga06"/>
+								il mio affetto carezzevole, i miei sentimen-
+								<lb n="9" break="no" facs="#c113_riga07"/>
+								ti pieni di ardore, il mio amore puris<c corresp="s">&#x17F;</c>i-
+								<lb n="10" break="no" facs="#c113_riga08"/>
+								mo, la luce, l'aria, la vita l'azzurro
+								<lb n="11" facs="#c113_riga09"/>
+								gli ideali più santi e più nobili.
+							</s>
+							<s n="4">
+								<lb n="12" facs="#c113_riga10"/>
+								Lo so è il mio stufo <distinct type="poetic">anelito</distinct>! ...</s>
+						</p>
+						<p>
+							<s n="5">
+								<lb  n="13" facs="#c113_riga11"/>
+								Un desiderio che mi agita tutto, un
+								<lb n="14" facs="#c113_riga12"/>
+								mo<add place="supralinear" hand="author">n</add>do di misteri, un arcano infinito
+								<lb n="15" facs="#c113_riga13"/>
+								di luce strana, suggestionatrice, tanta
+								<lb n="16" facs="#c113_riga14"/>
+								parte di me stufo, la più bella, la più
+								<lb n="17" facs="#c113_riga15"/>
+								potente, inoperosa, inattiva e il
+								<lb n="18" facs="#c113_riga16"/>
+								rammarico atroce dei giorni che pas<c corresp="s">&#x17F;</c>ano
+								<lb n="19" facs="#c113_riga17"/>
+								la vita che s'invola dal dominio della
+								<lb n="20" facs="#c113_riga18"/>
+								giovinezza bella, fascinatrice.
+							</s>
+						</p>
+						<p>
+							<s n="6">
+								<lb n="21" facs="#c113_riga19"/>
+								<persName ref="#OT">Oliva</persName> no, no, non voglio più così,
+								<lb n="22" facs="#c113_riga20"/>
+								amami amami sempre meglio<supplied reason="omitted-in-original">.</supplied>
+							</s>
+						</p> 
+						<closer>
+							<salute>
+								<lb n="23" facs="#c113_saluto"/>
+								Mille leggeris<c corresp="s">&#x17F;</c>ime carezze tuo, tuo, tuo,
+							</salute>
+							<signed>
+								<persName ref="#GC">Giovanni</persName>
+							</signed>
+						</closer>
+						<postscript>
+							<p>
+								<s n="7">
+									<lb n="24" facs="#c113_postscritpum"/>
+										<choice><sic>o</sic><corr>O</corr></choice> sei forse ammalata<supplied reason="omitted-in-original">?</supplied>
+								</s>
+								<s n="8">
+									<choice><sic>s</sic><corr>S</corr></choice>crivi, scrivi, scrivi.
+								</s>
+							</p>
+						</postscript>
+					</div>
+				</div>
+			</body>
+		</text>
+	</TEI>
+	<TEI xml:id="c7694-119">
+		<teiHeader>
+			<fileDesc>
+				<titleStmt>
+					<title>"Affettuosissimi"</title>
+					<respStmt>
+						<resp>Trascrittore</resp>
+						<name ref="#XX">Alessandro Cignoni</name>
+					</respStmt>
+					<respStmt>
+						<resp>Ente di Appartenenza</resp>
+						<name ref="#SP">Comune della Spezia</name>
+					</respStmt>
+				</titleStmt>
+				<editionStmt>
+					<edition>Studenti di Codifica dei Testi, Corso di laurea triennale in Informatica Umanistica, Università di Pisa
+						<date>2020</date>
+					</edition>
+					<respStmt>
+						<resp>Codificatore</resp>
+						<name ref="#XY1">Alessandro Cignoni</name>
+					</respStmt>
+					<respStmt>
+						<resp>Compilatore</resp>
+						<name ref="#XY2">Tommaso Castagneto</name>
+					</respStmt>
+					<respStmt>
+						<resp>Responsabile scientifico</resp>
+						<name ref="#GP">Giacomo Paolicchi</name>
+						<name ref="#ES">Enrica Salvatori</name>
+					</respStmt>
+					<respStmt>
+						<resp>Funzionario responsabile</resp>
+						<name ref="#MR">Marzia Ratti</name>
+					</respStmt>
+				</editionStmt>
+				<publicationStmt>
+					<publisher>Unipi</publisher>
+					<pubPlace>Pisa</pubPlace>
+					<availability>
+						<p>Available under licence only</p>
+					</availability>
+					<date when="2018">2018</date>
+					<distributor>LabCD</distributor>
+					<address>
+						<addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+						<addrLine>Pisa</addrLine>
+					</address>
+				</publicationStmt>
+				<notesStmt>
+					<note>Sul retro c'è scritto "Proprietà artistica riservata N°. 201 - 5".</note>
+				</notesStmt>
+				<sourceDesc>
+					<bibl>
+						<title type="custom">[Donna in nero con cappello rosso]</title>
+						<author ref="#AM">Mauzano</author>
+					</bibl>
+					<msDesc>
+						<msIdentifier>
+							<country>Italia</country>
+							<settlement>La Spezia (SP)</settlement>
+							<repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerra Mondiale</repository>
+							<idno>7694_119_001/002</idno>
+						</msIdentifier>
+						<msContents>
+							<summary>Cartolina Artistica</summary>
+							<textLang>Italiano</textLang>
+						</msContents>
+						<physDesc>
+							<objectDesc>
+								<supportDesc>
+									<support>
+										<objectType>Cartolina</objectType>
+										<material>Carta</material>
+										<dimensions unit="cm">
+											<height>9</height>
+											<width>14</width>
+										</dimensions>
+										<stamp>francobollo - Regno d'Italia</stamp>
+									</support>
+									<condition>Buono</condition>
+								</supportDesc>
+							</objectDesc>
+						</physDesc> 
+					</msDesc>
+				</sourceDesc>
+			</fileDesc>
+			<profileDesc>
+				<correspDesc>
+					<correspAction type="sent">
+						<persName ref="#GC"/>
+						<placeName ref="#MO"/>
+						<date type="postage" when="1917-06-14">14/06/1917</date>
+						<date type="writing" when="1917-06-14">14/06/1917</date>
+					</correspAction>
+					<correspAction type="received">
+						<persName ref="#OT"/>
+						<placeName ref="#RV"/>
+					</correspAction>
+				</correspDesc>
+				<textClass>
+					<keywords>
+						<term>Cartolina</term>
+						<term>Cartolina Artistica</term>
+						<term>Coppia di innamorati</term>
+					</keywords>
+				</textClass>
+				<langUsage>
+					<language ident="it-IT">italiano</language>
+				</langUsage>
+			</profileDesc>
+		</teiHeader>
+		<facsimile>
+			<surface xml:id="c119_fronte">
+				<graphic url='img/7694-119F.jpg' width='1048px' height='1657px' />
+				<zone ulx="790" uly="632" lrx="1040" lry="694" xml:id="c119_autore"/>
+			</surface>
+			<surface xml:id="c119_retro">
+				<graphic url='img/7694-119R.jpg' width='1051px' height='1659px'/>
+				<zone ulx="45" uly="887" lrx="957" lry="1064" xml:id="c119_data"/>
+				<zone ulx="78" uly="1063" lrx="831" lry="1349" xml:id="c119_saluto"/>
+				<zone ulx="105" uly="1271" lrx="995" lry="1608" xml:id="c119_firma"/>
+				<zone ulx="22" uly="176" lrx="237" lry="423" xml:id="c119_timbro1"/>
+				<zone ulx="126" uly="148" lrx="292" lry="353" xml:id="c119_timbro2"/>
+				<zone ulx="195" uly="68" lrx="394" lry="327" xml:id="c119_timbro3"/>
+				<zone ulx="48" uly="69" lrx="350" lry="314" xml:id="c119_francobollo"/>
+				<zone ulx="332" uly="119" lrx="606" lry="885" xml:id="c119_titoli"/>
+				<zone ulx="518" uly="59" lrx="661" lry="862" xml:id="c119_nome"/>
+				<zone ulx="648" uly="2" lrx="881" lry="890" xml:id="c119_via"/>
+				<zone ulx="776" uly="2" lrx="1022" lry="694" xml:id="c119_citta"/>
+			</surface>
+		</facsimile>
+		<text type="cartolina">
+			<body>
+				<div type="fronte" facs="#c119_fronte">
+					<figure>
+						<graphic url="img/7694-119F.jpg" />
+						<figDesc>Donna bionda in nero con cappello rosso su sfondo sfumato di città</figDesc>
+						<head>[Donna in nero con cappello] di Mauzano</head>
+					</figure>
+					<p facs="#c119_autore">Mauzano</p>
+				</div>
+				<div type="retro" facs="#c119_retro">
+					<div type="message" facs="#c119_messaggio">
+						<opener>
+							<lb n="1" facs="#c119_data"/>
+							<dateline><placeName ref="#MO">Modena</placeName>, <date type="written" when="1917-06-14"> lì 14/6-17.</date></dateline>
+						</opener>
+						<p></p>
+						<closer>
+							<lb n="2" facs="#c119_saluto"/>
+							<salute>Affettuosis<c corresp="s">&#x17F;</c>imi</salute>
+							<lb n="3" facs="#c119_firma"/>
+							<signed><persName ref="#GC">Giovannino</persName></signed>
+						</closer>  
+					</div>
+					<div type="destination" facs="#c119_destinatario">
+						<p>
+							<stamp type="postmark">
+								<lb n="1" facs="#c119_timbro1"/>
+								<mentioned><placeName ref="#MO">Modena</placeName></mentioned>
+								<lb n="2" facs="#c119_timbro2"/>
+								<date when="1917-06-14">14.6.17.22</date>
+								<lb n="3" facs="#c119_timbro3"/>
+								<unclear reason="parterased">Ferrovia</unclear>
+							</stamp>
+							<stamp type="postage" facs="#c119_francobollo">Francobollo da 5 centesimi del Regno d'Italia</stamp>
+						</p>
+						<p>
+							<address>
+								<name>
+									<lb n="4" facs="#c119_titoli"/>
+									<choice>
+										<abbr type="titolo">Gent.<unclear reason="illegible">ma</unclear></abbr>
+										<expan>Gent<ex>ilissi</ex>ma</expan>
+									</choice>
+									<roleName>
+										<choice>
+											<abbr type="titolo">Sig.ina</abbr>
+											<expan>Sig<ex>norina</ex></expan>
+										</choice>
+									</roleName>
+									<lb n="5" facs="#c119_nome"/>
+									<persName ref="#OT">Oliva Turtura</persName>
+								</name>
+								<lb n="6" facs="#c119_via"/>
+								<street>
+									Via 
+									<choice>
+										<abbr>G.</abbr>
+										<expan>G<ex>irolamo</ex></expan>
+									</choice>
+									Ros<c corresp="s">&#x17F;</c>i 58
+								</street>
+								<lb n="7" facs="#c119_citta"/>
+								<settlement><placeName ref="#RV">Ravenna</placeName></settlement>
+							</address>
+						</p>
+					</div>
+				</div>
+			</body>
+		</text>
+	</TEI>
+</TEI>
