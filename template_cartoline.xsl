@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- This document contains data on Codifica di Testi.
-	Filename: template_cartoline.xsl
+<!--
+	This document contains data on Codifica di Testi.
+	Filename: cartoline.xml
 	Author: Alessandro Cignoni matricola 561497
 	Date: 17/07/2020
 -->
@@ -9,6 +10,12 @@
 
 	<!-- TEMPLATE STRUTTURA -->
 	<xsl:template match="/">
+		<xsl:comment>
+			This document contains data on Codifica di Testi.
+			Filename: cartoline.html
+			Author: Alessandro Cignoni matricola 561497
+			Date: 17/07/2020
+		</xsl:comment> 
 		<html>
 			<head>
 				<title>
