@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- This document contains data on Codifica di Testi.
+	Filename: cartoline.xml
+	Author: Alessandro Cignoni matricola 561497
+	Date: 17/07/2020
+-->
 <!DOCTYPE TEI SYSTEM "tei_all.dtd">
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
