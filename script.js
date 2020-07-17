@@ -1,3 +1,9 @@
+/* This document contains data on Codifica di Testi.
+	Filename: script.js
+	Author: Alessandro Cignoni matricola 561497
+	Date: 17/07/2020
+*/
+
 // FUNZIONI
 function cambia_da_cartolina(id_cartolina) {
 	var altra_cartolina, questa_cartolina;
